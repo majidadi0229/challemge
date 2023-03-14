@@ -51,7 +51,7 @@ main > div  {
 }
 div > h3{
 color: aquamarine;
-font-size: 2rem;
+font-size: 1rem;
 padding: 1.5;
 }
 .download{
@@ -79,6 +79,7 @@ line-height: 2rem;
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
+    filter: saturate(5);
 }
 nav{
     width: 100%;
@@ -123,7 +124,7 @@ article{
 
 }
 article > p{
-    font-size: 3rem;
+    /* font-size: 3rem; */
     word-spacing: 10px;
     text-transform: capitalize;
     
@@ -161,7 +162,7 @@ hr{
 }
 footer > .free{
     width: 20%;
-    height: 40vh;
+    height: 42vh;
     border: 1px solid;
     border-radius: 2rem;
     text-align:justify;
